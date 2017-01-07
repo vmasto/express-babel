@@ -14,7 +14,7 @@ Make sure you read the FAQ for more details and info.
 
 ### Getting started
 
-```
+```sh
 # Clone the project
 $ git clone git@github.com:vmasto/express-babel.git
 $ cd express-babel
@@ -30,7 +30,7 @@ $ npm install or yarn
 
 Then you can begin development:
 
-```
+```sh
 $ yarn run dev
 ```
 
@@ -42,13 +42,13 @@ Testing is set up using [Jest](https://facebook.github.io/jest/). This project a
 
 Start the test runner in watch mode with:
 
-```
+```sh
 $ yarn test
 ```
 
 You can also generate coverage with:
 
-```
+```sh
 $ yarn test -- --coverage
 ```
 
@@ -60,7 +60,7 @@ Linting is set up using [ESLint](http://eslint.org/). It uses ESLint's default [
 
 Begin linting in watch mode with:
 
-```
+```sh
 $ yarn run lint
 ```
 
@@ -74,13 +74,13 @@ It is **strongly** recommended **never** to check in your .env file to version c
 
 Deployment is specific to hosting platform/provider but generally:
 
-```
+```sh
 $ yarn run build
 ```
 
 will compile your src into `/dist`, and 
 
-```
+```sh
 $ yarn start
 ```
 
