@@ -1,0 +1,6 @@
+.idea
+dist
+.env
+coverage
+node_modules
+npm-debug.log
