@@ -22,9 +22,9 @@ routes.get('/list', (req, res, next) => {
   const { title } = req.query;
 
   if (title == null || title === '') {
-    // You probably want to set the response HTTP status to 400 Bad Request here
-    // instead of the default 500 of the global error handler.
-    // This is just for demo purposes.
+    // You probably want to set the response HTTP status to 400 Bad Request
+    // or 422 Unprocessable Entity instead of the default 500 of
+    // the global error handler. This is just for demo purposes.
     next(new Error('The "title" parameter is required'));
     return;
   }
