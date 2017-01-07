@@ -23,7 +23,10 @@ cd express-babel
 rm -rf .git && git init && npm init
 
 # Install dependencies
-npm install or yarn
+npm install
+
+# or if you're using Yarn
+yarn
 ```
 
 (If you don't use [Yarn](https://yarnpkg.com/) you can just replace `yarn` with `npm` in the following commands).
@@ -102,7 +105,7 @@ In order to avoid such confusions, `babel-register` is a more sensible approach 
 
 **Should I use this?**
 
-Full disclosure: If you have to ask perhaps you should reconsider. There is some strong debate on whether to use Babel-transpiled code on the server or not. Personally I think it's fine and I've found this setup to be a sensible approach in doing so. I'd suggest though to take anything you read online with a grain of salt and not blindly using boilerplates without investigating yourself first.
+Full disclosure: If you have to ask perhaps you should reconsider. There is some debate on whether to use Babel-transpiled code on the server or not. Personally I think it's fine and I've found this setup to be a sensible approach in doing so. I'd suggest though to take anything you read online with a grain of salt and not blindly using boilerplates without investigating yourself first.
 
 Node is very rapidly converging with the latest ECMAScript specification, and there's mostly full native support for ES2015 and ES2016. The need to transpile on the server is way smaller nowadays.
 
