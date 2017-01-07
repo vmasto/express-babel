@@ -8,14 +8,14 @@ describe('GET /', () => {
 });
 
 describe('GET /list', () => {
-  it('should render correctly', async () => {
+  it('should render properly with valid parameters', async () => {
     await request(app)
       .get('/list')
       .query({ title: 'List title' })
       .expect(200);
   });
 
-  it('should error properly without a valid parameter', async () => {
+  it('should error without a valid parameter', async () => {
     await request(app).get('/list').expect(500);
   });
 });
