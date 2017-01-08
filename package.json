@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Using latest JavaScript features on the server",
   "repository": "https://github.com/vmasto/express-babel",
+  "author": "Vassilis Mastorostergios <vmasto@gmail.com>",
+  "license": "MIT",
   "main": "dist/index.js",
   "engines": {
     "node": "~6.9.1",
@@ -28,8 +30,6 @@
     "jest",
     "eslint"
   ],
-  "author": "vmasto",
-  "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
