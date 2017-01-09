@@ -2,6 +2,12 @@
 
 This is a small walkthrough on publishing your app in some popular PaaS providers.
 
+####Contents
+
+- [Heroku](#heroku)
+- [AppEngine](#appengine)
+- [Elastic Beanstalk on AWS](#elastic-beanstalk-on-aws)
+
 ###Heroku
 
 Log in to [Heroku](https://heroku.com) or create a new account if you don't have one.
