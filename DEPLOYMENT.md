@@ -5,7 +5,7 @@ This is a small walkthrough on publishing your app in some popular PaaS provider
 ####Contents
 
 - [Heroku](#heroku)
-- [AppEngine](#appengine)
+- [App Engine](#app-engine)
 - [Elastic Beanstalk on AWS](#elastic-beanstalk-on-aws)
 
 ###Heroku
@@ -51,7 +51,7 @@ And you're done! Your app should be running at `https://your-apps-name.herokuapp
 
 Relevant documentation on Heroku: [https://devcenter.heroku.com/articles/getting-started-with-nodejs](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
-###AppEngine
+###App Engine
 
 Log in to [Google Cloud Platform](https://console.cloud.google.com/) or create an account if you don't have one.
 
