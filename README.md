@@ -4,7 +4,7 @@
 [![Dependencies Status](https://david-dm.org/vmasto/express-babel/status.svg)](https://david-dm.org/vmasto/express-babel)
 [![Dev Dependencies Status](https://david-dm.org/vmasto/express-babel/dev-status.svg)](https://david-dm.org/vmasto/express-babel)
 
-A mostly unopinionated starter project for using Babel and ES2016+ features in a Node.js server environment as well as providing linting and testing solutions. It provides the setup for compiling, linting and testing your code but doesn't make any further assumptions on how your project should be structured.
+A mostly unopinionated starter project for using Babel and ES2017+ features in a Node.js server environment as well as providing linting and testing solutions. It provides the setup for compiling, linting and testing your code but doesn't make any further assumptions on how your project should be structured.
 
 It's a small improvement over [Babel's official approach](https://github.com/babel/example-node-server) and [express-generator](https://expressjs.com/en/starter/generator.html).
 
@@ -12,7 +12,7 @@ Make sure you read the FAQ for more details and info.
 
 ### Features:
 - [Express.js](https://expressjs.com/) as the web framework.
-- ES2016+ support with [Babel](https://babeljs.io/).
+- ES2017+ support with [Babel](https://babeljs.io/).
 - Linting with [ESLint](http://eslint.org/).
 - Testing with [Jest](https://facebook.github.io/jest/).
 
@@ -33,7 +33,7 @@ npm install
 yarn
 ```
 
-(If you don't use [Yarn](https://yarnpkg.com/) you can just replace `yarn` with `npm` in the following commands).
+_If you don't use [Yarn](https://yarnpkg.com/) you can just replace `yarn` with `npm` in the commands that follow._
 
 Then you can begin development:
 
@@ -45,7 +45,7 @@ This will launch a [nodemon](https://nodemon.io/) process for automatic server r
 
 ### Testing
 
-Testing is set up using [Jest](https://facebook.github.io/jest/). This project also uses [supertest](https://github.com/visionmedia/supertest) for demonstrating a simple routing smoke test suite. Feel free to remove supertest entirely if you don't wish to use it.
+Testing is powered by [Jest](https://facebook.github.io/jest/). This project also uses [supertest](https://github.com/visionmedia/supertest) for demonstrating a simple routing smoke test suite. Feel free to remove supertest entirely if you don't wish to use it.
 
 Start the test runner in watch mode with:
 
@@ -103,15 +103,15 @@ In `package.json`. Feel free to extract them in separate respective config files
 
 **Why are you using `babel-register` instead of `babel-node`?**
 
-`babel-node` contains a small "trap", it loads babel's [polyfill](https://babeljs.io/docs/usage/polyfill/) by default. This means that if you use something that needs to be polyfilled, it will work just fine in development (because you're using `babel-node`) but it will break in production because it needs to be specifically included.
+`babel-node` contains a small "trap", it loads Babel's [polyfill](https://babeljs.io/docs/usage/polyfill/) by default. This means that if you use something that needs to be polyfilled, it'll work just fine in development (because `babel-node` polyfills it automatically) but it'll break in production because it needs to be explicitely included in Babel's CLI which handles the final build.
 
-In order to avoid such confusions, `babel-register` is a more sensible approach in keeping the development and production runtimes equal. Polyfills should be explicitely provided by the developer if needed.
+In order to avoid such confusions, `babel-register` is a more sensible approach in keeping the development and production runtimes equal. Any polyfills required should be explicitely provided by the developer.
 
 **Should I use this?**
 
-Full disclosure: If you have to ask perhaps you should reconsider. There is some debate on whether to use Babel-transpiled code on the server or not. Personally I think it's fine and I've found this setup to be a sensible approach in doing so. I'd suggest though to take anything you read online with a grain of salt and not blindly using boilerplates without investigating yourself first.
+Full disclosure: If you have to ask perhaps you should reconsider. There is some debate on whether to use Babel-transpiled code on the server or not. Personally, I think it's fine and I've found this setup to be a sensible approach in doing so. That said, I'd suggest to take anything you read online with a grain of salt and refrain from blindly using boilerplates without first investigating personally.
 
-Node is very rapidly converging with the latest ECMAScript specification, and there's mostly full native support for ES2015 and ES2016. The need to transpile on the server is way smaller nowadays.
+Node is very rapidly converging with the latest ECMAScript specification, and there's mostly full native support for ES2015 and ES2016. The need to transpile on the server is way smaller nowadays, albeit the language is constantly improving and transpiling will probably always be a part of our workflow. At the time of this writing the main benefits are mainly ES6 module syntax and async/await without flags.
 
 In any case, you can simply remove transpilation and keep everything else that this kit has to offer.
 
