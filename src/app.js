@@ -5,6 +5,7 @@ import bodyParser from 'body-parser';
 import routes from './routes';
 
 const app = express();
+app.disable('x-powered-by');
 
 // View engine setup
 app.set('views', path.join(__dirname, '../views'));
