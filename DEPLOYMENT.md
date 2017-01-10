@@ -93,7 +93,7 @@ Then deploy with:
 yarn run deploy (or npm run deploy)
 ```
 
-The above script will provide more reasonable versioning naming containing the the date (`Y-m-d-H-M-S`) and the hash of your most current commit.
+The above script will provide more reasonable versioning naming containing the date (`Y-m-d-H-M-S`) and the hash of your most current commit.
 
 And you're done! Your app should be running at `https://your-project-id.appspot.com`
 

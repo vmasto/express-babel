@@ -3,6 +3,7 @@
 [![Code Climate](https://codeclimate.com/github/vmasto/express-babel/badges/gpa.svg)](https://codeclimate.com/github/vmasto/express-babel)
 [![Dependencies Status](https://david-dm.org/vmasto/express-babel/status.svg)](https://david-dm.org/vmasto/express-babel)
 [![Dev Dependencies Status](https://david-dm.org/vmasto/express-babel/dev-status.svg)](https://david-dm.org/vmasto/express-babel)
+[![NSP Status](https://nodesecurity.io/orgs/vmasto/projects/d8089487-4f0e-4f69-abb1-938c6de1e6a7/badge)](https://nodesecurity.io/orgs/vmasto/projects/d8089487-4f0e-4f69-abb1-938c6de1e6a7)
 
 A mostly unopinionated starter project for using Babel and ES2017+ features in a Node.js server environment as well as providing linting and testing solutions. It provides the setup for compiling, linting and testing your code but doesn't make any further assumptions on how your project should be structured.
 
