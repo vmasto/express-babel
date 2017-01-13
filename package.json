@@ -45,6 +45,7 @@
     "dotenv": "motdotla/dotenv#v4.0.0",
     "eslint": "^3.13.0",
     "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^1.0.2",
     "eslint-watch": "^2.1.14",
     "jest": "^18.1.0",
     "nodemon": "^1.11.0",
@@ -58,7 +59,8 @@
   },
   "eslintConfig": {
     "plugins": [
-      "import"
+      "import",
+      "jest"
     ],
     "parserOptions": {
       "ecmaVersion": 2017,
@@ -70,7 +72,11 @@
     },
     "extends": [
       "eslint:recommended"
-    ]
+    ],
+    "rules": {
+      "jest/no-exclusive-tests": 2,
+      "jest/no-identical-title": 2
+    }
   },
   "jest": {
     "testEnvironment": "node"

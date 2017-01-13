@@ -1372,6 +1372,10 @@ eslint-plugin-import@^2.2.0:
     minimatch "^3.0.3"
     pkg-up "^1.0.0"
 
+eslint-plugin-jest@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-1.0.2.tgz#372f03f9beb00f908da126c22aef7262815f35e8"
+
 eslint-watch@^2.1.14:
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-2.1.14.tgz#a9d200aefb158349f3631ec91a2ec484d152cbfe"
