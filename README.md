@@ -17,7 +17,7 @@ Make sure you read the FAQ for more details and info.
 - Linting with [ESLint](http://eslint.org/).
 - Testing with [Jest](https://facebook.github.io/jest/).
 
-### Getting started
+## Getting started
 
 ```sh
 # Clone the project
@@ -98,7 +98,7 @@ The last command is generally what most hosting providers use to start your appl
 
 You can find small guides for Heroku, App Engine and AWS in [the deployment](DEPLOYMENT.md) document.
 
-### FAQ
+## FAQ
 
 **Where is all the configuration for ESLint, Jest and Babel?**
 
@@ -119,3 +119,6 @@ Node is very rapidly converging with the latest ECMAScript specification, and th
 In any case, you can simply remove transpilation and keep everything else that this kit has to offer.
 
 If you see anything that needs improvement feel free to open an issue for discussion!
+
+## License
+MIT License. See the [LICENSE](LICENSE) file.
