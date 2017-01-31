@@ -42,14 +42,14 @@
   "devDependencies": {
     "babel-jest": "^18.0.0",
     "babel-register": "^6.18.0",
-    "dotenv": "motdotla/dotenv#v4.0.0",
+    "dotenv": "^4.0.0",
     "eslint": "^3.13.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^1.0.2",
     "eslint-watch": "^2.1.14",
     "jest": "^18.1.0",
     "nodemon": "^1.11.0",
-    "supertest": "^2.0.1"
+    "supertest": "^3.0.0"
   },
   "babel": {
     "presets": [
