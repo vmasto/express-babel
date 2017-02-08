@@ -16,6 +16,7 @@ Make sure you read the FAQ for more details and info.
 - ES2017+ support with [Babel](https://babeljs.io/).
 - Linting with [ESLint](http://eslint.org/).
 - Testing with [Jest](https://facebook.github.io/jest/).
+- [Quick deployment guide](DEPLOYMENT.md) for Heroku, AWS Elastic Beanstalk, and App Engine.
 
 ## Getting started
 
