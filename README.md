@@ -14,6 +14,7 @@ Make sure you read the FAQ for more details and info.
 ### Features:
 - [Express.js](https://expressjs.com/) as the web framework.
 - ES2017+ support with [Babel](https://babeljs.io/).
+- Automatic polyfill requires based on environment with [babel-preset-env](https://github.com/babel/babel-preset-env).
 - Linting with [ESLint](http://eslint.org/).
 - Testing with [Jest](https://facebook.github.io/jest/).
 - [Quick deployment guide](DEPLOYMENT.md) for Heroku, AWS Elastic Beanstalk, and App Engine.
@@ -109,7 +110,7 @@ In `package.json`. Feel free to extract them in separate respective config files
 
 `babel-node` contains a small "trap", it loads Babel's [polyfill](https://babeljs.io/docs/usage/polyfill/) by default. This means that if you use something that needs to be polyfilled, it'll work just fine in development (because `babel-node` polyfills it automatically) but it'll break in production because it needs to be explicitely included in Babel's CLI which handles the final build.
 
-In order to avoid such confusions, `babel-register` is a more sensible approach in keeping the development and production runtimes equal. Any polyfills required should be explicitely provided by the developer.
+In order to avoid such confusions, `babel-register` is a more sensible approach in keeping the development and production runtimes equal. By using [babel-preset-env](https://github.com/babel/babel-preset-env) only code that's not supported by the running environment is transpiled and any polyfills required are automatically inserted.
 
 **Should I use this?**
 
