@@ -1,14 +1,14 @@
-#Deployment
+# Deployment
 
 This is a small walkthrough on publishing your app in some popular PaaS providers.
 
-####Contents
+#### Contents
 
 - [Heroku](#heroku)
 - [App Engine](#app-engine)
 - [Elastic Beanstalk on AWS](#elastic-beanstalk-on-aws)
 
-###Heroku
+### Heroku
 
 Log in to [Heroku](https://heroku.com) or create a new account if you don't have one.
 
@@ -51,7 +51,7 @@ And you're done! Your app should be running at `https://your-apps-name.herokuapp
 
 Relevant documentation on Heroku: [https://devcenter.heroku.com/articles/getting-started-with-nodejs](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
-###App Engine
+### App Engine
 
 Log in to [Google Cloud Platform](https://console.cloud.google.com/) or create an account if you don't have one.
 
@@ -99,7 +99,7 @@ And you're done! Your app should be running at `https://your-project-id.appspot.
 
 Relevant documentation on GCP: [https://cloud.google.com/appengine/docs/flexible/nodejs/quickstart](https://cloud.google.com/appengine/docs/flexible/nodejs/quickstart)
 
-###Elastic Beanstalk on AWS
+### Elastic Beanstalk on AWS
 
 Login to [AWS](https://console.aws.amazon.com/) or create a new account if you don't have one. You should securely store the keys you get from Amazon's IAM service, you'll need them later. How you handle security and authorization is not part of this small guide; you should follow AWS's best practices and authorize with a new IAM user with limited permissions.
 
