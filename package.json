@@ -32,16 +32,15 @@
     "eslint"
   ],
   "dependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-env": "^1.1.11",
     "body-parser": "^1.17.0",
     "express": "^4.15.0",
     "morgan": "^1.7.0",
     "pug": "^2.0.0-beta11",
-    "rimraf": "^2.6.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
     "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.1.11",    
     "babel-register": "^6.18.0",
     "dotenv": "^4.0.0",
     "eslint": "^3.16.1",
@@ -50,6 +49,7 @@
     "eslint-watch": "^3.0.0",
     "jest": "^19.0.2",
     "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1"    
     "supertest": "^3.0.0"
   },
   "babel": {
