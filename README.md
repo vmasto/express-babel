@@ -122,5 +122,7 @@ In any case, you can simply remove transpilation and keep everything else that t
 
 If you see anything that needs improvement feel free to open an issue for discussion!
 
+You can also find me on twitter at [@vmasto](https://twitter.com/vmasto).
+
 ## License
 MIT License. See the [LICENSE](LICENSE) file.
