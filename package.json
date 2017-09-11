@@ -33,6 +33,7 @@
   ],
   "dependencies": {
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.4.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
@@ -41,6 +42,7 @@
     "rimraf": "^2.6.1"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-jest": "^21.0.2",
     "babel-register": "^6.24.1",
     "dotenv": "^4.0.0",
@@ -54,17 +56,19 @@
   },
   "babel": {
     "presets": [
-      [
-        "env",
-        {
+      ["env", {
           "targets": {
             "node": "current"
           }
         }
       ]
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
     ]
   },
   "eslintConfig": {
+    "parser": "babel-eslint",
     "plugins": [
       "import",
       "jest"
