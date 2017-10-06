@@ -74,6 +74,12 @@ Begin linting in watch mode with:
 yarn run lint
 ```
 
+To begin linting and start the server simultaneously, edit the `package.json` like this:
+
+```
+"dev": "nodemon src/index.js --exec \"node -r dotenv/config -r babel-register\" | npm run lint"
+```
+
 ### Environmental variables in development
 
 The project uses [dotenv](https://www.npmjs.com/package/dotenv) for setting environmental variables during development. Simply copy `.env.example`, rename it to `.env` and add your env vars as you see fit. 
