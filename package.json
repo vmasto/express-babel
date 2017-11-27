@@ -51,7 +51,7 @@
     "eslint-plugin-jest": "^21.0.2",
     "eslint-watch": "^3.1.0",
     "jest": "^21.0.2",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.12.1",
     "supertest": "^3.0.0"
   },
   "babel": {
