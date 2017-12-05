@@ -65,13 +65,11 @@ You can also generate coverage with:
 
 ```sh
 # yarn
-yarn test -- --coverage
+yarn test --coverage
 
 # npm
 npm test -- --coverage
 ```
-
-(the extra double hyphen `--` is necessary).
 
 ### Linting
 
