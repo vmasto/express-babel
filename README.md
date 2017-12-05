@@ -35,13 +35,14 @@ npm install
 # or if you're using Yarn
 yarn
 ```
-
-_If you don't use [Yarn](https://yarnpkg.com/) you can just replace `yarn` with `npm` in the commands that follow._
-
 Then you can begin development:
 
 ```sh
+# yarn
 yarn run dev
+
+# npm
+npm run dev
 ```
 
 This will launch a [nodemon](https://nodemon.io/) process for automatic server restarts when your code changes.
@@ -53,13 +54,21 @@ Testing is powered by [Jest](https://facebook.github.io/jest/). This project als
 Start the test runner in watch mode with:
 
 ```sh
+# yarn
 yarn test
+
+# npm
+npm test
 ```
 
 You can also generate coverage with:
 
 ```sh
+# yarn
 yarn test -- --coverage
+
+# npm
+npm test -- --coverage
 ```
 
 (the extra double hyphen `--` is necessary).
@@ -71,7 +80,11 @@ Linting is set up using [ESLint](http://eslint.org/). It uses ESLint's default [
 Begin linting in watch mode with:
 
 ```sh
+# yarn
 yarn run lint
+
+# npm
+npm run lint
 ```
 
 To begin linting and start the server simultaneously, edit the `package.json` like this:
@@ -91,13 +104,21 @@ It is **strongly** recommended **never** to check in your .env file to version c
 Deployment is specific to hosting platform/provider but generally:
 
 ```sh
+# yarn
 yarn run build
+
+# npm
+npm run build
 ```
 
-will compile your src into `/dist`, and 
+will compile your `src` into `/dist`, and 
 
 ```sh
+# yarn
 yarn start
+
+# npm
+npm start
 ```
 
 will run `build` (via the `prestart` hook) and start the compiled application from the `/dist` folder.
