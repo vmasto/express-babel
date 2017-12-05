@@ -68,7 +68,7 @@ You can also generate coverage with:
 yarn test --coverage
 
 # npm
-npm test -- --coverage
+npm test --coverage
 ```
 
 ### Linting
