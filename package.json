@@ -42,7 +42,7 @@
     "rimraf": "^2.6.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^8.0.3",
     "babel-jest": "^21.2.0",
     "babel-register": "^6.24.1",
     "dotenv": "^4.0.0",
