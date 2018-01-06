@@ -23,7 +23,7 @@ Make sure you read the FAQ for more details and info.
 
 ```sh
 # Clone the project
-git clone git@github.com:vmasto/express-babel.git
+git clone https://github.com/vmasto/express-babel.git
 cd express-babel
 
 # Make it your own
