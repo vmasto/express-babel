@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^22.0.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-register": "^6.26.0",
     "dotenv": "^4.0.0",
