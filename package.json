@@ -33,6 +33,7 @@
   ],
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "body-parser": "^1.18.2",
@@ -44,7 +45,6 @@
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "babel-jest": "^21.2.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-register": "^6.26.0",
     "dotenv": "^4.0.0",
     "eslint": "^4.12.1",
