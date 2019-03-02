@@ -125,6 +125,10 @@ The last command is generally what most hosting providers use to start your appl
 
 You can find small guides for Heroku, App Engine and AWS in [the deployment](DEPLOYMENT.md) document.
 
+### Debugging
+
+- [Quick info on how to enable VSCode debugging](https://github.com/vmasto/express-babel/issues/8#issuecomment-339851018)
+
 ## FAQ
 
 **Where is all the configuration for ESLint, Jest and Babel?**
