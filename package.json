@@ -7,8 +7,8 @@
   "license": "MIT",
   "main": "dist/index.js",
   "engines": {
-    "node": "~6.9.1",
-    "npm": ">=3.10.0"
+    "node": "~10.15.1",
+    "npm": ">=6.4.0"
   },
   "scripts": {
     "prestart": "npm run -s build",
@@ -35,25 +35,25 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "pug": "^2.0.3",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "babel-jest": "^21.2.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
     "babel-register": "^6.26.0",
-    "dotenv": "^6.2.0",
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jest": "^21.27.2",
-    "eslint-watch": "^4.0.2",
-    "jest": "^23.6.0",
+    "dotenv": "^7.0.0",
+    "eslint": "^5.15.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-watch": "^5.0.1",
+    "jest": "^24.5.0",
     "nodemon": "^1.18.10",
-    "supertest": "^3.4.2"
+    "supertest": "^4.0.2"
   },
   "babel": {
     "presets": [
