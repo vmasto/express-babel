@@ -32,10 +32,11 @@
     "eslint"
   ],
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
@@ -43,9 +44,10 @@
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.5.0",
-    "babel-register": "^6.26.0",
+    "babel-jest": "^23.4.2",
     "dotenv": "^7.0.0",
     "eslint": "^5.15.2",
     "eslint-plugin-import": "^2.16.0",
@@ -58,7 +60,7 @@
   "babel": {
     "presets": [
       [
-        "env",
+        "@babel/preset-env",
         {
           "targets": {
             "node": "current"
@@ -67,8 +69,8 @@
       ]
     ],
     "plugins": [
-      "transform-object-rest-spread",
-      "transform-class-properties"
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-proposal-class-properties"
     ]
   },
   "eslintConfig": {
