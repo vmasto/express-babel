@@ -39,7 +39,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
