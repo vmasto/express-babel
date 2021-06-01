@@ -48,7 +48,7 @@
     "babel-register": "^6.26.0",
     "dotenv": "^7.0.0",
     "eslint": "^5.15.2",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^22.4.1",
     "eslint-watch": "^5.0.1",
     "jest": "^24.5.0",
